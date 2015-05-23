@@ -1,0 +1,26 @@
+@import url('reset.css');
+
+/* General Demo Style */
+body{
+    background: #f7f7f7 url(../images/old_wall.jpg) repeat top left;
+    color: rgba(0,0,0,0.8);
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Pacifico'), url('http://themes.googleusercontent.com/font?kit=fKnfV28XkldRW297cFLeqfesZW2xOQ-xsNqO47m55DA') format('truetype');
+    font-size: 15px;
+    
+}
+a{
+    color: red;
+    
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    position: relative;
+}
+.clr{
+    clear: both;
+}
+

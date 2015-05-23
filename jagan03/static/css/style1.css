@@ -1,0 +1,34 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+   
+    text-align: center;
+    width: 100%;
+}
+
+
+ul {
+    display: table-header-group;
+    width: 97.1%;
+    height: auto;
+    padding: 0;
+}
+
+ul li {
+ 
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 50px 0 0;
+}
+
+ul li:nth-child(2) {
+    margin-top: 200px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+

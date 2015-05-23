@@ -1,0 +1,7 @@
+from django.contrib import admin
+
+ADMINS = (
+    ('Siva', 'shivaemailme@gmail.com'),
+    
+)
+# Register your models here.

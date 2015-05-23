@@ -1,0 +1,42 @@
+    <!-- Caption Style -->
+    <style> 
+
+
+
+
+.flexcroll{ width:400px;
+            height:200px;
+            overflow:scroll;
+	    color:darkgrey;
+           }
+.flexcroll{
+    scrollbar-face-color: yellow;
+    scrollbar-shadow-color: blue;
+    scrollbar-highlight-color: pink;
+    scrollbar-3dlight-color: grey;
+    scrollbar-darkshadow-color: lime;
+    scrollbar-track-color: green;
+    scrollbar-arrow-color: orange;
+}
+
+/* Let's get this party started */
+.flexcroll::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+.flexcroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+.flexcroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+    </style>
